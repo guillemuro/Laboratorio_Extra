@@ -1,0 +1,63 @@
+.box {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.cuadrados {
+    display: flex;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 285px;
+    padding: 30px;
+    line-height: 20px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 20px;
+    box-shadow: 0px 3px 6px #dbdbdb;
+}
+
+.foto {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+
+.identificacion {
+    display: flex;
+    padding-top: 8px;
+}
+
+.persona {
+    padding-left: 10px;
+}
+
+.linea {
+    border-top: 1px;
+    border-color: #ececec;
+}
+
+.comillas {
+    height: 60px;
+}
+
+.texto {
+    padding-bottom: 6px;
+}
+
+.imagen {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    overflow: hidden;
+    position: absolute;
+  top: 0; /* Alinear la imagen en la parte superior del contenedor */
+  left: 0; /* Alinear la imagen en la esquina superior izquierda del contenedor */
+  width: 100%; /* Establecer el ancho de la imagen al 100% del contenedor */
+  height: 240px; 
+}
