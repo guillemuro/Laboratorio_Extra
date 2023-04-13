@@ -1,0 +1,157 @@
+.box {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+  
+.fondo_about_us {
+    background: linear-gradient(135deg,  #746cf4 45%,  #6c94f4 55%);
+    width: 100%;
+    height: 310px;
+}
+  
+.titulo {
+    color: #fff;
+    text-align: center;
+    padding-top: 55px;
+}
+  
+.cuadrados {
+    position: absolute;
+    display: flex;
+    top: 0;
+    padding-top: 140px;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+
+.cuadrado {
+    color: #686868;
+    width: 187px;
+    height: 292px;
+    padding: 28px;
+    line-height: 20px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 20px;
+    box-shadow: 0px 2px 2px #e6e4e4;
+    background-color: #fff;
+    margin-right: 13px;
+}
+
+.foto {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+
+.identificacion {
+    display: flex;
+    padding-top: 10px;
+}
+
+.persona {
+    padding-left: 13px;
+}
+
+.linea {
+    border-top: 1px;
+    border-color: #e4e3e3;
+}
+
+.comillas {
+    height: 60px;
+}
+
+.texto {
+    padding-bottom: 8px;
+}
+
+.imagen {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    z-index: 1;
+}
+
+#cuadrado2 {
+    padding-top: 260px;
+    position: relative;
+}
+
+.puntos {
+    text-align: center;
+}
+
+.p1 {
+    width: 17px;
+    height: 17px;
+    padding-top: 200px;
+}
+
+.p2 {
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    padding-top: 205px;
+    padding-left: 5px;
+}
+
+.instagram_about_us {
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    z-index: 2;
+    padding-left: 148px;
+    padding-top: 15px;
+    top: 0;
+}
+
+/*PARTE DEL FOOTER*/
+
+.footer {
+    display: inline-block;
+    text-align: center;
+}
+
+.img_footer {
+    position: relative;
+    width: 2000px;
+    height: 300px;
+    padding-top: 50px;
+    margin-left: -260px;
+}
+
+.text {
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-53%, -41%);
+}
+
+.email {
+    position: absolute;
+    top: 86%;
+    left: 48%;
+    transform: translate(-53%, -41%);
+    width: 330px;
+    height: 37px;
+    border-radius: 5%;
+    border-color: rgb(177, 174, 174);
+    border-style: solid;
+}
+
+.iconoenviar {
+    position: absolute;
+    top: 84%;
+    left: 56%;
+    height: 42px;
+    width: 53px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
