@@ -140,7 +140,7 @@
     left: 48%;
     transform: translate(-53%, -41%);
     width: 330px;
-    height: 37px;
+    height: 44px;
     border-radius: 5%;
     border-color: rgb(177, 174, 174);
     border-style: solid;
@@ -149,9 +149,9 @@
 .iconoenviar {
     position: absolute;
     top: 84%;
-    left: 56%;
+    left: 57%;
     height: 42px;
-    width: 53px;
+    width: 56px;
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
 }
