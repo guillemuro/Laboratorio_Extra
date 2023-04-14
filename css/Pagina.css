@@ -132,14 +132,14 @@
 
 .text {
     position: absolute;
-    top: 88%;
+    top: 80%;
     left: 50%;
     transform: translate(-53%, -41%);
 }
 
 .email {
     position: absolute;
-    top: 106%;
+    top: 95%;
     left: 48%;
     transform: translate(-53%, -41%);
     width: 330px;
@@ -151,7 +151,7 @@
 
 .iconoenviar {
     position: absolute;
-    top: 103%;
+    top: 92%;
     left: 57%;
     height: 52px;
     width: 63px;
