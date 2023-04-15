@@ -4,108 +4,116 @@
 }
 
 .logo img {
-	height: 50px;
-	width: auto;
+    height: 50px;
+    width: auto;
 
-	border-radius: 15%;
+    border-radius: 15%;
 
 }
+
 .menu {
 
-	display: flex;
-	align-items: center;
-	margin-left: 24px;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
 }
+
 .menu li {
 
-	margin-right: 25px;
-	list-style: none;
+    margin-right: 25px;
+    list-style: none;
 }
-.menu  {
 
-	margin-left:-5%;
-	color: #333;
-	font-size: 14px;
-	font-weight: 500;
-	text-decoration: none;
-	padding: 12px;
+.menu {
+
+    margin-left: -5%;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 12px;
 }
-.morado{
 
-    color:#776df4;
-  }
-  
-  
-  .search button {
-  
-      background-color: transparent;
-      border: none;
-      cursor: pointer;
-      outline: none;
-  }
-  
-  .user button {
-  
-      background-color: transparent;
-      border: none;
-      cursor: pointer;
-      outline: none;
-  }
-  
-  .login {
-  
-      display: flex;
-      align-items: center;
-      margin-left: 24px;
-      list-style: none;
-      color: #333;
-      padding: 12px;
-  }
-  .login li {
-  
-      margin-right: 20px;
-      list-style: none;
-  }
-  
-  
-  .text-1{
-  
+.morado {
+
+    color: #776df4;
+}
+
+
+.search button {
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.user button {
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.login {
+
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    list-style: none;
+    color: #333;
+    padding: 12px;
+}
+
+.login li {
+
+    margin-right: 20px;
+    list-style: none;
+}
+
+
+.text-1 {
+
     background-color: #776df4;
-  }
-  h3{
-  
-  margin-left: -6%;
-  font-size: 175%;
-  }
-  .usuario img{
-  
-      width:19px;
-      height: auto;	
-      margin-left: 575%;
-      margin-top: 50%;
-  }
-  .morao{
-  
-      padding:10px;
-      padding-left:20px;
-      padding-right: 20px;
-      background-color:#776df4 ;
-      color:white;
-      border-radius: 10px	;
-  }
+}
+
+h3 {
+
+    margin-left: -6%;
+    font-size: 175%;
+}
+
+.usuario img {
+
+    width: 19px;
+    height: auto;
+    margin-left: 575%;
+    margin-top: 50%;
+}
+
+.morao {
+
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #776df4;
+    color: white;
+    border-radius: 10px;
+}
 
 .fondo_about_us {
-    background: linear-gradient(135deg,  #746cf4 45%,  #6c94f4 55%);
+    background: linear-gradient(135deg, #746cf4 45%, #6c94f4 55%);
     width: 100%;
     height: 310px;
 }
-  
+
 .titulo {
     color: #fff;
     text-align: center;
     padding-top: 55px;
 }
-  
+
 .cuadrados {
     position: absolute;
     display: flex;
