@@ -254,3 +254,34 @@ h3 {
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
 }
+
+/*PARTE FINAL*/
+.final {
+    background-color: rgb(58, 52, 79);
+    margin-left: -8px;
+    margin-top: -3px;
+    margin-bottom: -8px;
+    position: relative;
+}
+
+
+.gray {
+    color: gray;
+    position: absolute;
+    padding-top: 56px;
+    padding-left: 168px;
+}
+
+.white {
+    position: absolute;
+    color: white;
+    padding-left: 358px;
+    padding-top: 56px;
+}
+
+.img_final {
+    position: relative;
+    padding-left: 1250px;
+    padding-top: 25px;
+    height: 75px;
+}
