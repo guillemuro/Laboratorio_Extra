@@ -1,47 +1,41 @@
 .box {
     font-family: 'Inter', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
+    color: #5b5b5b;
+}
+
+/*PARTE DEL MENU*/
+.menu_definitivo {
+    display: flex;
+    font-size: 16px;
+    padding-left: 100px;
 }
 
 .logo img {
     height: 50px;
     width: auto;
-
-    border-radius: 15%;
-
+    border-radius: 20%;
+    margin-top: 18px;
+    margin-right: 15px;
+    box-shadow: 0px 1px 8px #f6f5f5, 0px 1px 8px #f6f5f5, 0px 1px 8px #f6f5f5, 0px 1px 8px #f6f5f5;
 }
 
 .menu {
-
     display: flex;
     align-items: center;
     margin-left: 24px;
 }
 
 .menu li {
-
     margin-right: 25px;
     list-style: none;
 }
 
-.menu {
-
-    margin-left: -5%;
-    color: #333;
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 12px;
-}
-
 .morado {
-
     color: #776df4;
 }
 
-
 .search button {
-
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -49,7 +43,6 @@
 }
 
 .user button {
-
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -57,7 +50,6 @@
 }
 
 .login {
-
     display: flex;
     align-items: center;
     margin-left: 24px;
@@ -67,33 +59,27 @@
 }
 
 .login li {
-
     margin-right: 20px;
     list-style: none;
 }
 
 
 .text-1 {
-
     background-color: #776df4;
 }
 
 h3 {
-
-    margin-left: -6%;
     font-size: 175%;
 }
 
 .usuario img {
-
-    width: 19px;
+    width: 17px;
     height: auto;
-    margin-left: 575%;
-    margin-top: 50%;
+    padding-right: 10px;
+    margin-top: 5px;
 }
 
 .morao {
-
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -102,40 +88,85 @@ h3 {
     border-radius: 10px;
 }
 
+.menu_botones {
+    padding-left: 310px;
+}
+
+/*PARTE DEL BANNER*/
+.banner_publicitario {
+    max-width: 100%;
+}
+
+.info_banner {
+    position: absolute;
+    color: #fff;
+}
+
+.titulo_banner {
+    font-size: 50px;
+    line-height: 3px;
+    margin-left: 100px;
+    padding-top: 160px;
+}
+
+.video_icono {
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 100%;
+    box-shadow: 0px 1px 8px #d1d1d1;
+}
+
+.apartado_banner {
+    display: flex;
+    margin-left: 100px;
+}
+
+.texto_banner {
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 22px;
+}
+
+/*PARTE DEL ABOUT US*/
 .fondo_about_us {
+    margin-top: -30px;
     background: linear-gradient(135deg, #746cf4 45%, #6c94f4 55%);
     width: 100%;
     height: 310px;
 }
 
-.titulo {
+.titulo_about_us {
     color: #fff;
     text-align: center;
-    padding-top: 55px;
+    padding-top: 85px;
 }
 
-.cuadrados {
-    position: absolute;
-    display: flex;
-    top: 0;
-    padding-top: 140px;
-    left: 0;
-    right: 0;
-    justify-content: center;
-}
-
-.cuadrado {
-    color: #686868;
-    width: 187px;
+.cuadrado_about {
+    font-size: 14px;
+    width: 193px;
     height: 292px;
-    padding: 28px;
+    padding: 27px;
     line-height: 20px;
     border-radius: 20px;
     position: relative;
     margin-left: 20px;
-    box-shadow: 0px 2px 2px #e6e4e4;
+    box-shadow: 0px 2px 3px #e6e4e4;
     background-color: #fff;
     margin-right: 13px;
+    margin-top: 730px;
+}
+
+.cuadrados_about_us {
+    position: absolute;
+    display: flex;
+    top: 0;
+    padding-top: 145px;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    font-family: 13px;
 }
 
 .foto {
@@ -147,6 +178,12 @@ h3 {
 .identificacion {
     display: flex;
     padding-top: 10px;
+    position: absolute;
+    z-index: 3;
+}
+
+#identificacion_morni {
+    padding-top: 259px;
 }
 
 .persona {
@@ -155,15 +192,17 @@ h3 {
 
 .linea {
     border-top: 1px;
-    border-color: #e4e3e3;
+    border-color: #929191;
+    position: relative;
 }
 
 .comillas {
     height: 60px;
 }
 
-.texto {
+.texto_about_us {
     padding-bottom: 8px;
+    color: #919090;
 }
 
 .imagen {
@@ -178,13 +217,9 @@ h3 {
     z-index: 1;
 }
 
-#cuadrado2 {
-    padding-top: 260px;
-    position: relative;
-}
-
 .puntos {
     text-align: center;
+    padding-top: 40px;
 }
 
 .p1 {
@@ -212,32 +247,29 @@ h3 {
 }
 
 /*PARTE DEL FOOTER*/
-
 .footer {
     display: inline-block;
     text-align: center;
 }
 
 .img_footer {
-    position: relative;
-    width: 2000px;
+    width: 100%;
     height: 300px;
-    padding-top: 50px;
-    margin-left: -260px;
+    padding-top: 75px;
 }
 
 .text {
     position: absolute;
-    top: 74%;
-    left: 50%;
-    transform: translate(-53%, -41%);
+   margin-top: 180px;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 
 .email {
     position: absolute;
-    top: 86%;
-    left: 48%;
-    transform: translate(-53%, -41%);
+    margin-top: 265px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 330px;
     height: 37px;
     border-radius: 5%;
@@ -247,8 +279,8 @@ h3 {
 
 .iconoenviar {
     position: absolute;
-    top: 84%;
-    left: 56%;
+    margin-top: 243.5px;
+    left: 60%;
     height: 42px;
     width: 53px;
     border-top-right-radius: 10%;
@@ -257,31 +289,31 @@ h3 {
 
 /*PARTE FINAL*/
 .final {
+    width: 100%;
     background-color: rgb(58, 52, 79);
-    margin-left: -8px;
-    margin-top: -3px;
-    margin-bottom: -8px;
-    position: relative;
+    margin-top: -4px;
+    height: 130px;
 }
-
 
 .gray {
     color: gray;
     position: absolute;
     padding-top: 56px;
-    padding-left: 168px;
+    padding-left: 130px;
 }
 
 .white {
     position: absolute;
     color: white;
-    padding-left: 358px;
+    padding-left: 352px;
     padding-top: 56px;
 }
 
 .img_final {
     position: relative;
-    padding-left: 1250px;
-    padding-top: 25px;
+    padding-top: 30px;
     height: 75px;
+    float: right;
+    padding-right: 50px;
+    height: 60px;
 }
