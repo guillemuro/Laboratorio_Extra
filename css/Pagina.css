@@ -2,6 +2,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: #5b5b5b;
+    min-width: 100%;
 }
 
 /*PARTE DEL MENU*/
@@ -95,6 +96,7 @@ h3 {
 /*PARTE DEL BANNER*/
 .banner_publicitario {
     max-width: 100%;
+    min-width: 100%;
 }
 
 .info_banner {
@@ -134,7 +136,7 @@ h3 {
     margin-top: -30px;
     background: linear-gradient(135deg, #746cf4 45%, #6c94f4 55%);
     width: 100%;
-    height: 310px;
+    height: 330px;
 }
 
 .titulo_about_us {
@@ -155,7 +157,7 @@ h3 {
     box-shadow: 0px 2px 3px #e6e4e4;
     background-color: #fff;
     margin-right: 13px;
-    margin-top: 730px;
+    margin-top: 800px;
 }
 
 .cuadrados_about_us {
